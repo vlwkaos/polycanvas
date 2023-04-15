@@ -17,16 +17,16 @@ importers:
 
   packages/apps/web-demo:
     specifiers:
-      '@test-mono/shared-lib': workspace:*
+      '@polycanvas/polycanvas-core': workspace:*
       typescript: ^4.9.3
       vite: ^4.2.0
     dependencies:
-      '@test-mono/shared-lib': link:../../libs/shared-lib
+      '@polycanvas/polycanvas-core': link:../../libs/polycanvas-core
     devDependencies:
       typescript: 4.9.5
       vite: 4.2.1
 
-  packages/libs/shared-lib:
+  packages/libs/polycanvas-core:
     specifiers:
       typescript: ^4.9.3
       vite: ^4.2.0

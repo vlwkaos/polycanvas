@@ -1,5 +1,5 @@
 {
-  "name": "@test-mono/shared-lib",
+  "name": "@polycanvas/polycanvas-core",
   "private": true,
   "version": "0.0.0",
   "type": "module",

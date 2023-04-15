@@ -1,5 +1,5 @@
 {
-  "name": "@test-mono/web-demo",
+  "name": "@polycanvas/web-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@test-mono/shared-lib": "workspace:*"
+    "@polycanvas/polycanvas-core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^4.9.3",

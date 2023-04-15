@@ -1,10 +1,10 @@
 {
-  "name": "test-mono",
+  "name": "polycanvas",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "start": "pnpm run dev",
-    "dev": "pnpm -F @test-mono/web-demo dev",
+    "dev": "pnpm -F @polycanvas/web-demo dev",
     "generate": "pnpm ts-node ./tools/generator.ts",
     "rename-repo": "pnpm ts-node ./tools/rename_repo.ts"
   },

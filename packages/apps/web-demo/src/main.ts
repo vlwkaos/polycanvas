@@ -1,4 +1,4 @@
-import { greets } from '@test-mono/shared-lib';
+import { greets } from '@polycanvas/polycanvas-core';
 import './style.css'
 
 greets();
