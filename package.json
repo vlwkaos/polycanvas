@@ -1,0 +1,20 @@
+{
+  "name": "test-mono",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "pnpm run dev",
+    "dev": "pnpm -F @test-mono/web-demo dev",
+    "generate": "pnpm ts-node ./tools/generator.ts",
+    "rename-repo": "pnpm ts-node ./tools/rename_repo.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "preinstall": "npx only-allow pnpm",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1"
+  }
+}
